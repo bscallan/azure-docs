@@ -90,6 +90,9 @@ The following table summarizes these domain naming decisions.
 | Private (internal) domain name | The name of the domain (and internal DNS zone) created on Azure Stack for infrastructure management. 
 | | |
 
+> [!NOTE]
+> Although it is a valid DNS character, the hyphen character "-" is NOT supported or allowed to be used in the Azure Stack region name.
+
 ## Certificate requirements
 
 For deployment, you’ll need to provide Secure Sockets Layer (SSL) certificates for public-facing endpoints. At a high level, certificates have the following requirements:
